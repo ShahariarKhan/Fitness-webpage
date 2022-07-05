@@ -61,3 +61,41 @@
     background-color: white;
     color: brown;
 }
+.take-head{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    color: tomato;
+   
+}
+
+.take-card{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    
+}
+.card{
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    border: 1px solid grey;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px grey;
+}
+.card:hover{
+    border: 1px solid tomato;
+    margin-top:-20px;
+    transition: 1s;
+    
+}
+
+.take-icon img{
+    width: 50px;
+}
+#icon3{
+    width: 100px;
+    margin-top:-20px;
+}
